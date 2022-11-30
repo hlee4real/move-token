@@ -1,0 +1,9 @@
+[package]
+name = 'testing-move'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+admin = 'bf2989eae6243dffec5bc9a659f4df37a3dca6cb62f302294c2e861e4f67639e'
